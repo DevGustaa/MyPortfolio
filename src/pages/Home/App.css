@@ -1,0 +1,311 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.App{
+  width: 100vw;
+  height: 284vh;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+.Header{
+  width: 100vw;
+  height: 8vh;
+  font-size: 30px;
+  color: white;
+  display: flex;
+  box-sizing: border-box;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 21px;
+  font-family: "Jockey One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #1B1B1E;
+  position: fixed;
+  z-index: 1;
+}
+
+.HeaderMenu{
+  width: 35px;
+}
+
+.main{
+  width: 100vw;
+  height: 100%;
+  background-color: #27272F;
+  display: flex;
+  box-sizing: border-box;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+}
+
+/*Home*/
+
+.Home{
+  width: 100vw;
+  height:100vh;
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+
+.HomeName{
+  color: white;
+  height: 30vh;
+  width: 100vw;
+  box-sizing: border-box;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  font-size: 20px;
+  font-family: "Jockey One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.HomeLine{
+  width: 100vw;
+  height: 5em;
+  background-color: #9F6E6E;
+  margin:10vh;
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+
+.HomeImage{
+  width: 12em;
+  height: 12em;
+  background-color: aqua;
+  border-radius: 100%;
+}
+
+.HomeFooter{
+  width: 100vw;
+  height: 30vh;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding-inline: 2em;
+  font-family: "Jockey One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  gap: 15px;
+}
+
+.HomeTextIntroduction{
+  font-size: 20px ;
+  color:#f59f73;
+}
+
+.HomeTextTitle{
+  color: white;
+}
+
+.HomeTextIntro{
+  color: white
+}
+
+.HomeButtonLeerMore{ 
+  background: none;
+  border: none;
+  font-family: "Jockey One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #f59f73;
+}
+
+/*WhoAmI*/
+
+.Who{
+  width: 100%;
+  height: 92vh;
+}
+
+.WhoData{
+  width: 100vw;
+  height: 30vh;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+  font-family: "JetBrains Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  color: white;
+}
+
+.WhoName{
+  font-size: 1em;
+}
+
+.WhoImage{
+  width: 10em;
+  height: 10em;
+  border-radius: 100%;
+  background-color: aqua;
+}
+
+.WhoText{
+  width: 100vw;
+  height: 37vh;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: top;
+  align-items: center;
+  gap: 0.5em;
+  text-align: center;
+  font-family: "JetBrains Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.WhoTheme{
+  color: #f59f73;
+}
+
+.WhoDescr{
+  color: white;
+  font-size: 1.2em;
+}
+
+.WhoLine{
+  width: 100vw;
+  height: 11VH;
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.WhoLineHorizontalContainer{
+  width: 50.5vw;
+  height: 2vh;
+  box-sizing: border-box;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.WhoLineHorizontal{
+  width: 50.5vw;
+  height: 0.4vh;
+  background-color: #f59f73;
+}
+
+.WhoLineVerticalContainer{
+  width: 100vw;
+  height: 9vh;
+  box-sizing: border-box;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+}
+
+.WhoLineVertical{
+  background: #f59f73;
+  color: #f59f73;
+  font-size: 1.1em;
+  width: 0.2em;
+  height: 9vh;
+  border-color: #f59f73;
+}
+
+
+.WhoButton{
+  width: 100vw;
+  height: 14vh;
+  box-sizing: border-box;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+.WhoProfButton{
+  background: none;
+  color: #f59f73;
+  font-family: "JetBrains Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 1.1em;
+  width: 8em;
+  height: 2em;
+  border-color: #f59f73;
+}
+
+.WhoPessButton{
+  background: none;
+  color: #f59f73;
+  font-family: "JetBrains Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 1.1em;
+  width: 8em;
+  height: 2em;
+  border-color: #f59f73;
+}
+
+/*WhatDoIDo*/
+
+.WhatDo{
+  width: 100vw;
+  height: 92vh;
+  background-color: green;
+}
+
+.WhatDoTitle{
+  width: 100%;
+  height: 10vh;
+  font-family: "JetBrains Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 1.6em;
+  color: #f59f73;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aqua;
+}
+
+.WhatDoImage{
+  width: 100%;
+  height: 40vh;
+  background-color: blueviolet;
+}
+
+.WhatDoCarrossel{
+  width: 100%;
+  height: 27vh;
+  background-color: chocolate;
+}
+
+.WhatDoConhecimentosTitle{
+  width: 100%;
+  height: 5vh;
+  background-color: burlywood;
+}
+
+.WhatDoConhecimentosImages{
+  width: 100%;
+  height: 10vh;
+  background-color: aqua;
+}
